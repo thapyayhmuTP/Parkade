@@ -1,0 +1,27 @@
+.gird-container
+{
+  display: grid;
+  gird-template-areas: 
+        'ph'
+        'cn'
+        'pf'
+}
+header
+{
+  grid-area: ph;
+  text-align: center;
+  padding:100 490;
+}
+nav
+{
+  grid-area: cn;
+  padding:100 550;
+  text-align: center;
+  font-family: Sofadi One;
+}
+footer
+{
+  grid-area: pf;
+  text-align: left;
+}
+.heading{font-family:Sofia; color: red; font-size:70px;}

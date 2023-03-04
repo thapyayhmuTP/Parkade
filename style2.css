@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.item3{
+  text-align: right;
+}
+
+.item2{
+  padding: 200px 20px;
+  text-align: center;
+  font-size: 28px;
+  font-family:Sofadi One;
+}

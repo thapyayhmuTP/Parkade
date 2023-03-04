@@ -1,0 +1,29 @@
+.grid-container { 
+  display: grid; 
+  grid-template-areas:
+    'ph'
+    'cn'
+    'pf'
+    ;
+}
+
+header
+{
+  font-family:Sofadi One;
+  grid-area: ph;
+  font-size:17px;
+  padding:30px 30px;
+  background-image: url('https://cdn.glitch.global/4ed21ce3-0c99-413c-9d27-43e2db41a678/Parkade4Blur.png?v=1642370891904');
+}
+
+main
+{
+  grid-area: cn;
+}
+
+footer
+{
+  grid-area: pf;
+  text-align: center;
+}
+

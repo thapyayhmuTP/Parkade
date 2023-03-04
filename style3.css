@@ -1,0 +1,13 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.item1
+{
+  padding: 200px 30px;
+  text-align: center;
+  font-size: 23px;
+  background-color: lightgrey;
+  font-family:Libre Baskerville;
+}

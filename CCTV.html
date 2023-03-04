@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Search by Area</title>
+    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/style5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Sofadi+One&family=Sofia&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="grid-container">
+      <header>
+        <div class="w3-bar">
+          <button class="w3-bar-item w3-button w3-ripple w3-grey w3-border w3-border-black" onclick="show(this, 'tab','YES')">CCTV monitored</button>
+          <button class="w3-bar-item w3-button w3-ripple w3-brown w3-border w3-border-black" onclick="show(this, 'tab','NO')">CCTV unmonitored</button>
+        </div>
+      </header>
+      <main>
+        <div id="YES" class="tab">
+            <iframe src="https://opendata.bristol.gov.uk/explore/embed/dataset/car-parks/table/?dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6ImNhci1wYXJrcyIsIm9wdGlvbnMiOnt9fSwiY2hhcnRzIjpbeyJhbGlnbk1vbnRoIjp0cnVlLCJ0eXBlIjoiY29sdW1uIiwiZnVuYyI6IkNPVU5UIiwieUF4aXMiOiJzcGFjZXMiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjRkE4QzQ0In1dLCJ4QXhpcyI6Im9jY3VwYW5jeWN1cnJlbnQiLCJtYXhwb2ludHMiOiIiLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwic29ydCI6IiJ9XSwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZX0%3D&refine.cctv=Yes&location=11,51.48787,-2.52088&basemap=jawg.streets&static=false&datasetcard=false" width="1700" height="820" frameborder="0"></iframe>
+        </div>
+        <div id="NO" class="tab" style="display:none">
+            <iframe src="https://opendata.bristol.gov.uk/explore/embed/dataset/car-parks/table/?dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6ImNhci1wYXJrcyIsIm9wdGlvbnMiOnt9fSwiY2hhcnRzIjpbeyJhbGlnbk1vbnRoIjp0cnVlLCJ0eXBlIjoiY29sdW1uIiwiZnVuYyI6IkNPVU5UIiwieUF4aXMiOiJzcGFjZXMiLCJzY2llbnRpZmljRGlzcGxheSI6dHJ1ZSwiY29sb3IiOiIjRkE4QzQ0In1dLCJ4QXhpcyI6Im9jY3VwYW5jeWN1cnJlbnQiLCJtYXhwb2ludHMiOiIiLCJ0aW1lc2NhbGUiOiJ5ZWFyIiwic29ydCI6IiJ9XSwiZGlzcGxheUxlZ2VuZCI6dHJ1ZSwiYWxpZ25Nb250aCI6dHJ1ZX0%3D&refine.cctv=No&location=11,51.48787,-2.52088&basemap=jawg.streets&static=false&datasetcard=false" width="1700" height="820" frameborder="0"></iframe>      
+        </div>
+      </main>
+    </div>
+    <footer>
+        <button onclick="location.href='index.html';" class="w3-button w3-red w3-border w3-border-black">Back to Home</button>
+        <button onclick="location.href='Map.html';" class="w3-button w3-red w3-border w3-border-black">Find by Map</button>
+        <button id="hour" onclick="location.href='Type.html';" class="w3-button w3-red w3-border w3-border-black">Find by Types</button>
+    </footer>    
+  </body>
+</html>
